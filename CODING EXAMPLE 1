@@ -1,0 +1,23 @@
+package selfProgramming;
+
+import java.util.Scanner;
+public class example1{
+	
+	public static void main (String[]args) {
+		
+		Scanner no = new Scanner (System.in);
+		
+		
+		int [] age = {7,21,5,9};
+		int i = 0;
+		
+		while (i < age.length) {
+			
+			System.out.println("Age " + age[i]);
+			i = i +1;
+		}
+				
+		
+		
+	}
+}
