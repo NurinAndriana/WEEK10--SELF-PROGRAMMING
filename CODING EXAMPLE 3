@@ -1,0 +1,46 @@
+package selfProgramming;
+import java.util.Scanner;
+public class example3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/* write a java program that should be able to accept ten [10] marks from user and store it in an array 
+		 * then calculate and display the total and average of student's mark
+		 */
+		
+		Scanner no = new Scanner(System.in);
+		
+		int [] marks = new int [10];
+		int average;
+		int total= 0;
+		int i;
+		
+		System.out.println("Please enter student's mark: ");
+		
+		for (i=0; i<marks.length; i++) {
+			
+			marks[i] = no.nextInt();
+		
+		    total = total + marks[i];}
+		
+	       average = total/10;
+	      
+	      
+	      System.out.println("Total marks " + total);
+	      System.out.println("Average of student's mark " + average);
+	      
+	      
+	      
+	      
+	      
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
