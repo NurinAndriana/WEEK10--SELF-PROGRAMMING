@@ -1,0 +1,45 @@
+package selfProgramming;
+import java.util.Scanner;
+public class example4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   /* create a complete java program which determine the number is odd or even
+    * based on ten numbers enter by user 
+    
+    */
+		
+		int [] number = new int [10];
+		int x;
+	    int even =0;
+		int odd = 0;
+		
+		
+		Scanner no = new Scanner (System.in);
+		
+		
+		
+		System.out.println("Please enter 10 numbers: ");
+		
+		for (x=0; x<number.length;x++) {
+			
+			number[x] = no.nextInt();
+			
+		    if (number[x]%2 ==0)
+		    	
+		    	even = even + 1;
+		    
+		    else 
+		    	odd = odd+1;}
+		    
+		    System.out.println(" No. of even is " + even);
+		    System.out.println(" No. of odd is  " + odd);
+		    
+		    
+		    	
+		
+		
+	
+	}
+
+}
