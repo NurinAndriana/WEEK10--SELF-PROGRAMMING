@@ -1,0 +1,33 @@
+Enter twelve numbers/data
+1
+2
+3
+Sum = 6
+Totalsum = 6
+4
+5
+6
+Sum = 15
+Totalsum = 21
+7
+8
+9
+Sum = 24
+Totalsum = 45
+10
+11
+12
+Sum = 33
+Totalsum = 78
+Row = 0 column = 0 1
+Row = 0 column = 1 2
+Row = 0 column = 2 3
+Row = 1 column = 0 4
+Row = 1 column = 1 5
+Row = 1 column = 2 6
+Row = 2 column = 0 7
+Row = 2 column = 1 8
+Row = 2 column = 2 9
+Row = 3 column = 0 10
+Row = 3 column = 1 11
+Row = 3 column = 2 12
