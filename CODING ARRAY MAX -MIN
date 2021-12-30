@@ -1,0 +1,42 @@
+package selfProgramming;
+import java.util.Scanner;
+public class exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner no = new Scanner(System.in);
+		
+		// write an array to find the maximum and minimum value of an array
+		
+		int[]value = new int [4];
+		int max= -99;
+		int min = 99;
+		int i;
+		
+		System.out.println("Please enter four values ");
+		
+		for ( i=0; i<value.length; i++) {
+			 value [i] = no.nextInt();
+		
+		
+		 System.out.println("the value is " + value[i]);}
+		
+		for ( i=0; i<value.length;i++) {
+		  if (value[i] > max) {
+		      max = value[i];}
+		  
+		
+		for (i=0; i<value.length;i++) {
+			if (value[i] < min);
+			 min = value[i];
+		}
+		
+		     System.out.println("");
+		     System.out.println("Minimum value is " + min);}
+			 System.out.println("Maximum value is " + max);
+		}
+		
+	}
+
+
