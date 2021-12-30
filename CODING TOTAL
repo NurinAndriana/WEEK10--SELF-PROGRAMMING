@@ -1,0 +1,50 @@
+package selfProgramming;
+import java.util.Scanner;
+public class exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner no = new Scanner (System.in);
+
+ /* write a java program to compute the average value of an array
+  * of integers except the largest and smallest values
+  */
+
+      
+     int[]value =new int [5];
+     int largest = -99;
+     int smallest = 99;
+     int total=0;
+     int i;
+     
+     
+       System.out.println("Please enter five values: ");
+       
+       for (i=0; i<value.length; i++) {
+    	   
+    	   value[i] = no.nextInt();
+       }
+        
+       for (i=0; i<value.length; i++) {
+            
+    	   if (value[i]> largest)
+    		   largest = value[i];
+    	   
+	}
+      
+       for (i=0; i<value.length; i++) {
+    	    if (value[i] < smallest)
+    	    	smallest = value[i];
+       }
+       
+       
+       System.out.println("Largest number:" + largest + " Smallest number:" + smallest );
+       
+       for (i=0; i<value.length; i++) {
+    	   
+    	   if ((value[i]!= largest)&& (value[i]!=smallest)) 
+    		   total = total+ value[i];
+       }
+       
+       System.out.println("The total of values except largest and smallest :" + total);
+}}
