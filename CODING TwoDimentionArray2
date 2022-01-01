@@ -1,0 +1,57 @@
+package selfProgramming;
+import java.util.Scanner;
+public class exercise4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner no = new Scanner (System.in);
+    
+
+      int i; 
+      int row = 2;
+      int col = 3;
+      int[][] num = new int [row][col];
+      int j;
+      int k;
+      String[][]names = {
+      {"Mr.", "Mrs.", "Miss "},
+      {"Ali","Nurin","Sofia"}
+      
+      };
+      
+      System.out.println(names[0][0] + names[1][0]);
+      System.out.println(names[0][1] + names[1][1]);
+      System.out.println(names[0][2] + names[1][2]);
+      
+    	for(k=0;k<names.length;k++) {
+    		for(j=0;j<names.length;j++) {
+    			
+    			System.out.println(names[k][j]);
+    		}
+    	}
+      
+
+      
+      System.out.println("Please enter 6 values: ");
+      
+      for (i=0; i<row;i++) {
+    	  for (j=0; j<col; j++) {
+    		  
+    		 num[i][j]= no.nextInt();
+    		 
+    	  }
+      }
+      
+      for (i=0; i<row;i++) {
+    	  for (j=0; j<col; j++) {
+    		  
+      System.out.println("Row " + i + " column " + j + " " + num[i][j]);
+      
+      
+    	  }
+	}
+
+      
+      
+      
+}}
